@@ -3,7 +3,6 @@ using Micron.Identity.Application;
 using Micron.Identity.Infrastructure;
 using Micron.Identity.Infrastructure.Authentication;
 using Micron.Identity.Persistence;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
 using Scalar.AspNetCore;
