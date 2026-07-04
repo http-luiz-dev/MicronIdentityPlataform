@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "Micron.Identity.Api.Grpc";
+
+package identity;
+
+service IdentityRpc {
+  rpc ValidateToken (ValidateTokenRequest) returns (ValidateTokenResponse);
+}
+
+message ValidateTokenRequest {
+  string access_token = 1;
+}
+
+message ValidateTokenResponse {
+  bool is_valid = 1;
+  string user_id = 2;
+  string email = 3;
+  string error = 4;
+}

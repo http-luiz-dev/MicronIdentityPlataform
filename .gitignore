@@ -1,0 +1,53 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+.nuget/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish output
+**/[Pp]ublish/
+*.pubxml
+*.pubxml.user
+
+# Logs
+*.log
+
+# Environment / secrets
+*.env
+.env.*
+
+# RSA JWT signing keys — the PRIVATE key must never be committed.
+# The public key (public_key.pem) is safe to distribute to resource APIs.
+**/keys/private_key.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# EF Core migrations bundle output
+efbundle

@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Micron.Identity.Api/Micron.Identity.Api.csproj" />
+    <Project Path="src/Micron.Identity.Application/Micron.Identity.Application.csproj" />
+    <Project Path="src/Micron.Identity.Domain/Micron.Identity.Domain.csproj" />
+    <Project Path="src/Micron.Identity.Infrastructure/Micron.Identity.Infrastructure.csproj" />
+    <Project Path="src/Micron.Identity.Persistence/Micron.Identity.Persistence.csproj" />
+  </Folder>
+</Solution>
